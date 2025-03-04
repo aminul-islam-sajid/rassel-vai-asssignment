@@ -7,7 +7,7 @@ import App from "./App.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className="max-w-[1200px] mx-auto">
+      <div >
         <App />
       </div>
     </BrowserRouter>
