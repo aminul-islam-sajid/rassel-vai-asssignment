@@ -1,10 +1,10 @@
 import "./App.css";
 import { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-import PublicRouter from "./router/PublicRouter";
 import NavBar from "./shared/NavBar";
 import Footer from "./shared/Footer";
 import Loading from "./shared/Loading";
+import publicRouter from "./router/PublicRouter";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <main className="main">
         <Suspense fallback={<Loading />}>
           <Routes>
-            {PublicRouter.map(({ path, Component }) => (
+            {publicRouter.map(({ path, Component }) => (
               <Route key={path} path={path} element={<Component />} />
             ))}
           </Routes>

@@ -2,8 +2,8 @@ import { lazy } from 'react';
 
 const Home = lazy(() => import('../Pages/Home'));
 
-const PublicRouter = [
+const publicRouter = [
     { path: '/', Component: Home },
 ]
 
-export default PublicRouter;
+export default publicRouter;
