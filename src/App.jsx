@@ -2,18 +2,29 @@ import "./App.css";
 import { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import PublicRouter from "./router/PublicRouter";
+import NavBar from "./shared/NavBar";
+import Footer from "./shared/Footer";
+import Loading from "./shared/Loading";
 
 function App() {
   return (
-    <Suspense fallback={''}>
+    <div >
+      <div className="max-w-[1200px] mx-auto">
+        <NavBar />
+      </div>
       <main className="main">
-        <Routes>
-          {PublicRouter.map(({ path, Component }, index) => {
-            return <Route key={index} path={path} element={<Component />} />;
-          })}
-        </Routes>
+        <Suspense fallback={<Loading />}>
+          <Routes>
+            {PublicRouter.map(({ path, Component }) => (
+              <Route key={path} path={path} element={<Component />} />
+            ))}
+          </Routes>
+        </Suspense>
       </main>
-    </Suspense>
+      <div className="bg-[#F0F0F0]">
+        <Footer />
+      </div>
+    </div>
   );
 }
 

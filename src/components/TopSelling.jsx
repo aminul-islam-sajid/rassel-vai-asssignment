@@ -6,7 +6,7 @@ const TopSelling = () => {
     return (
         <div>
             <div>
-                <h1 className='text-center text-5xl mt-16 mb-20 font-extrabold'>NEW ARRIVALS</h1>
+                <h1 className='text-center text-5xl mt-16 mb-20 font-extrabold'>TOP SELLING</h1>
                 <div className='flex items-center justify-center gap-4'>
                     <Card img={Images.Shorts} name={'T-SHIRT WITH TAPE DETAILS'} rating={2.0} price={"24.98"} />
                     <Card img={Images.JEANS2} name={'SKINNY FIT JEANS'} rating={5.0} price={"14.98"} />

@@ -32,6 +32,14 @@ import dressStyle2 from "../asset/productIMG/dressStyle2.png"
 import dressStyle3 from "../asset/productIMG/dressStyle3.png"
 import dressStyle4 from "../asset/productIMG/dressStyle4.png"
 
+// footer logo 
+import footerLogo from "../asset/productIMG/Badge.png"
+import footerLogo1 from "../asset/productIMG/Badge (1).png"
+import footerLogo2 from "../asset/productIMG/Badge (2).png"
+import footerLogo3 from "../asset/productIMG/Badge (3).png"
+import footerLogo4 from "../asset/productIMG/Badge (4).png"
+
+
 
 
 const Images = {
@@ -63,7 +71,13 @@ const Images = {
     dressStyle1,
     dressStyle2,
     dressStyle3,
-    dressStyle4
+    dressStyle4,
+
+    footerLogo,
+    footerLogo1,
+    footerLogo2,
+    footerLogo3,
+    footerLogo4
 
 }
 export default Images
