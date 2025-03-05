@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import NavBar from "./shared/NavBar";
 import Footer from "./shared/Footer";
 import Loading from "./shared/Loading";
-import publicRouter from "./router/PublicRouter";
+import publicRouter from "./router/publicRouter";
 
 function App() {
   return (
