@@ -4,7 +4,7 @@ import { GoMail } from 'react-icons/go';
 
 const SubscribeSection = () => {
     return (
-        <div className='relative h-[180px] w-full flex justify-center items-center bg-black text-white mt-20 rounded-2xl -mb-10 over'>
+        <div className=' h-[180px] w-full flex justify-center items-center bg-black text-white mt-20 rounded-2xl -mb-10 '>
             <h1 className='text-4xl font-bold px-28'>
                 STAY UPTO DATE ABOUT OUR LATEST OFFERS
             </h1>

@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../reUseCard.jsx/Card';
-import Images from '../Images/Images';
+import Images from '../../Images/Images'
+import Card from '../../reUseCard/Card';
 
 const NewProduct = () => {
     return (

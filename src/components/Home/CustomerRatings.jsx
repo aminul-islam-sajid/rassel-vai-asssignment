@@ -1,5 +1,5 @@
 import React from 'react';
-import RatingCard from '../reUseCard.jsx/RatingCard';
+import RatingCard from '../../reUseCard/RatingCard';
 import { GoArrowLeft, GoArrowRight } from 'react-icons/go';
 
 const CustomerRatings = () => {

@@ -1,16 +1,16 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import HeroLogo from '../components/HeroLogo';
-import NewProduct from '../components/NewProduct';
-import TopSelling from '../components/TopSelling';
-import DressStyle from '../components/DressStyle';
-import CustomerRatings from '../components/CustomerRatings';
-import SubscribeSection from '../components/SubscribeSection';
+import HeroLogo from '../components/Home/HeroLogo';
+import Hero from '../components/Home/Hero';
+import NewProduct from '../components/Home/NewProduct';
+import TopSelling from '../components/Home/TopSelling';
+import DressStyle from '../components/Home/DressStyle';
+import CustomerRatings from '../components/Home/CustomerRatings';
+import SubscribeSection from '../components/Home/SubscribeSection';
+
 
 const Home = () => {
     return (
         <div>
-
             <div className='bg-[#F2F0F1]'>
                 <Hero />
             </div>
@@ -22,8 +22,11 @@ const Home = () => {
                 <TopSelling />
                 <DressStyle />
                 <CustomerRatings />
+            </div>
+            <div className='relative max-w-[1200px] mx-auto '>
                 <SubscribeSection />
             </div>
+
         </div>
 
     );

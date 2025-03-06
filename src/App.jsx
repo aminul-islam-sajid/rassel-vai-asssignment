@@ -5,6 +5,7 @@ import NavBar from "./shared/NavBar";
 import Footer from "./shared/Footer";
 import Loading from "./shared/Loading";
 import publicRouter from "./router/publicRouter";
+import SubscribeSection from "./components/Home/SubscribeSection";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </Suspense>
       </main>
       <div className="bg-[#F0F0F0]">
+
         <Footer />
       </div>
     </div>
